@@ -13,9 +13,14 @@
 
 # Definition de la fonction
 function Stagiaire {
+param(
+[string]$personneNom,
+[Int]$personneAge
+)
+"Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge
 
 }
 
 # Appel de la fonction
-Stagiaire
+Stagiaire  Toronto 35
 

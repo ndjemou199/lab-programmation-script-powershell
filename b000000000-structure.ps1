@@ -11,4 +11,5 @@
 
 #>
 
-Write-Host "Bonjour $personneNom = "Alice", tu as $personneAge = 35 ans"
+Write-Host "Bonjour $personneNom = "Alice", tu as $personne Age = 35 ans"
+

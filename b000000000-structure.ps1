@@ -11,5 +11,11 @@
 
 #>
 
-Write-Host "Bonjour $personneNom = "Alice", tu as $personne Age = 35 ans"
+Write-Host "Bonjour $personneNom "Alice", tu as $personneAge 35 ans"
+$villes = "Toronto", "Mississauga", "Scarbourough", "Brampton"
+for ($i= 0;$i -le $villes.count; $i =$i +1) {
+$villes[$i]
+}
 
+clear-Host
+"{0}" -F ($villes.count % 2)
